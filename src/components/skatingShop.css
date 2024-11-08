@@ -1,0 +1,47 @@
+.skatingShop{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 0 50px 0 50px;
+}
+.skatingShop .shop-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shopImage-box{
+    flex-basis: 60%;
+}
+.shopText-box{
+    flex-basis: 35%;
+}
+.shopImage-box img{
+    width: 100%;
+}
+.shopText-box h2{
+    font-size: 45px;
+    color: #2b2b2b;
+    line-height: 60px;
+    font-weight: bold;
+    padding: 0;
+}
+.shopText-box h2 span{
+    display: block;
+    width: fit-content;
+    margin-right: auto;
+}
+.shopText-box p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    color: #282828;
+    padding-bottom: 29px;
+    text-align: left;
+}
+@media(max-width:767px){
+    .skatingShop .shop-container{
+        flex-direction: column;
+    }
+    .shopText-box{
+        order: -1;
+    }
+}

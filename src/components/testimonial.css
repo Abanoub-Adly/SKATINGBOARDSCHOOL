@@ -1,0 +1,129 @@
+.testimonial{
+    position: relative;
+    padding: 60px 0 90px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #3e0bce;
+}
+.testimonial .container{
+    padding-top: 60px;
+    overflow: hidden;
+}
+.testimonial h1{
+    color: #fff;
+    line-height: 57px;
+    font-size: 38px;
+    margin-bottom: 80px;
+}
+.testimonial-boxs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.testimonial-box{
+    position: relative;
+    background-color: #f0390f;
+    padding: 40px 20px 40px;
+    border-radius: 20px;
+    flex-basis: 25%;
+}
+.testimonial-box:nth-of-type(2){
+    background: #fff;
+    flex-basis: 40%;
+}
+.testimonial-box .image{
+    position: absolute;
+    padding: 20px;
+    box-shadow: 0 0 38px rgba(14, 14, 13, 0.10);
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    left: 50%;
+    top: -50px;
+    transform: translateX(-50%);
+    margin-bottom: 100px;
+}
+.testimonial-box:nth-of-type(2) .image{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    top: -60px;
+}
+.testimonial-box .image img{
+    width: 28px;
+    height: 52px;
+    padding: 0;
+    color: #ffffff;
+}
+.testimonial-box:nth-of-type(2) .image img{
+    width: 45px;
+    height: 52px;
+    padding: 0;
+    color: #ffffff;
+}
+.testimonial-box h2{
+    color: #fff;
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: bold;
+    padding-top: 38px;
+    margin-bottom: 20px;
+}
+.testimonial-box:nth-of-type(2) h2{
+    color: #262626;
+}
+.testimonial-box:nth-of-type(2) p{
+    color: #262626;
+}
+.testimonial-box p{
+    padding-top: 15px !important;
+    line-height: 30px;
+    font-size: 17px;
+    color: #fff;
+}
+.testimonial .carsoul{
+    position: absolute;
+    bottom: -36px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.testimonial .carsoul .carsoul-right{
+    position: relative;
+    right: 20px;
+}
+.testimonial .carsoul a{
+    width: 72px;
+    height: 72px;
+    background-color: #f0390f !important;
+}
+.testimonial .carsoul a:hover ,.testimonial  .carsoul a.active{
+    opacity: .5;
+}
+@media(max-width:767px){
+    .testimonial h1{
+        padding-bottom: 60px;
+    }
+    .testimonial .container{
+        padding: 50px 20px 0;
+    }
+    .testimonial-boxs{
+        flex-direction: column;
+    }
+    .testimonial-box{
+        margin-bottom: 80px;
+        padding: 40px 10px 40px;
+    }
+    .testimonial-box:nth-of-type(3){
+        margin-bottom: 0;
+    }
+    .testimonial-box h2{
+        padding-top: 28px;
+        margin-bottom: 15px;
+    }
+    .testimonial-box p{
+        line-height: 25px;
+        text-align: center;
+    }
+}

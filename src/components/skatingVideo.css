@@ -1,0 +1,30 @@
+.skatingVideo{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 0 50px 0 50px;
+}
+.skatingVideo h1{
+    font-size: 45px;
+    color: #2b2b2b;
+    line-height: 60px;
+    font-weight: bold;
+    padding: 0;
+    display: inline-block;
+}
+p{
+    padding-top: 15px !important;
+    line-height: 30px;
+    font-size: 17px;
+    color: #262626;
+}
+.video-boxs{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media(max-width:767px){
+    .video-boxs{
+        flex-direction: column;
+    }
+}

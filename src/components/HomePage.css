@@ -1,0 +1,117 @@
+.home{
+    overflow: hidden;
+}
+.home .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@keyframes swap-ContentLeft {
+    0%{
+        transform: translate3d(0,0,0);
+    }
+    50%{
+        transform: translate3d(-100%,0,0);
+    }
+    51%{
+        transform: translate3d(100%,0,0);
+    }
+    100%{
+        transform: translate3d(0,0,0);
+    }
+}
+@keyframes swap-ContentRight {
+    0%{
+        transform: translate3d(0,0,0);
+    }
+    50%{
+        transform: translate3d(100%,0,0);
+    }
+    51%{
+        transform: translate3d(-100%,0,0);
+    }
+    100%{
+        transform: translate3d(0,0,0);
+    }
+}
+.home .container .home-text{
+    flex-basis: 30%;
+}
+.home .container .home-text img{
+    display: block;
+    margin-right: auto;
+}
+.home .container .home-text h3{
+    width: fit-content;
+    color: #2b2b2b;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    font-size: 75px;
+    line-height: 85px;
+    font-weight: bold;
+    margin-right: auto;
+}
+.home .container .home-text h3 span{
+    text-transform: capitalize;
+    display: block;
+    margin-right: auto;
+    width: fit-content;
+}
+.home .container .home-image{
+    flex-basis: 65%;
+}
+.home .container .home-image img{
+    width: 100%;
+}
+.carsoul{
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin-right: auto;
+}
+.carsoul a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #3e0bce;
+    cursor: pointer;
+    transition: .4s;
+}
+.home .carsoul a:hover ,.home .carsoul a.active{
+    background-color: #f0390f;
+}
+.carsoul a:first-child{
+    margin-right: 15px;
+}
+@media(max-width:1285px){
+    .home .container{
+        padding: 0 40px 0;
+    }
+}
+@media(max-width:990px){
+    .home .container .home-text h3{
+        padding-bottom: 25px;
+        padding-top: 29px;
+        font-size: 61px;
+        line-height: 75px;
+    }
+}
+@media(max-width:767px){
+    .home .container{
+        flex-direction: column;
+    }
+    .home .container .home-text{
+        margin-right: auto;
+    }
+    .home .container .home-text h3{
+        padding-bottom: 60px;
+        padding-top: 60px;
+        font-size: 75px;
+        line-height: 85px;
+    }
+}
