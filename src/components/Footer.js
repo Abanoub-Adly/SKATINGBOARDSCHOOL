@@ -42,7 +42,7 @@ export default function Footer() {
         </ul>
         </div>
         <ul className='social_ul'>
-        <li><NavLink to='/home'>Home</NavLink></li>
+        <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/about'>About</NavLink></li>
         <li><NavLink to='/skating'>Skating</NavLink></li>
         <li><NavLink to='/shop'>Shop</NavLink></li>
