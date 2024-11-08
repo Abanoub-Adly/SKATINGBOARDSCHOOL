@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SKATINGBOARDSCHOOL/static/css/main.9aeed271.css",
+    "main.js": "/SKATINGBOARDSCHOOL/static/js/main.9be54b72.js",
+    "static/js/317.73d4c279.chunk.js": "/SKATINGBOARDSCHOOL/static/js/317.73d4c279.chunk.js",
+    "static/media/about.png": "/SKATINGBOARDSCHOOL/static/media/about.5cb06805ed8213cccd37.png",
+    "static/media/banner_img.png": "/SKATINGBOARDSCHOOL/static/media/banner_img.2fcc7fd7ba71494708c1.png",
+    "static/media/shop.png": "/SKATINGBOARDSCHOOL/static/media/shop.ac826a58134789460607.png",
+    "static/media/sakt2.png": "/SKATINGBOARDSCHOOL/static/media/sakt2.01f0e96c9913d881da87.png",
+    "static/media/sakt3.png": "/SKATINGBOARDSCHOOL/static/media/sakt3.7bd9ed37ee7589d1825c.png",
+    "static/media/sakt1.png": "/SKATINGBOARDSCHOOL/static/media/sakt1.ad0441162ed64a4d7bff.png",
+    "static/media/about_bg.jpg": "/SKATINGBOARDSCHOOL/static/media/about_bg.5d102436bf6c17e661d7.jpg",
+    "index.html": "/SKATINGBOARDSCHOOL/index.html",
+    "main.9aeed271.css.map": "/SKATINGBOARDSCHOOL/static/css/main.9aeed271.css.map",
+    "main.9be54b72.js.map": "/SKATINGBOARDSCHOOL/static/js/main.9be54b72.js.map",
+    "317.73d4c279.chunk.js.map": "/SKATINGBOARDSCHOOL/static/js/317.73d4c279.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9aeed271.css",
+    "static/js/main.9be54b72.js"
+  ]
+}
